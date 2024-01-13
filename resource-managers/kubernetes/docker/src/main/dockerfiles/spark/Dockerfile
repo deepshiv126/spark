@@ -48,9 +48,9 @@ COPY bin /opt/spark/bin
 COPY sbin /opt/spark/sbin
 COPY kubernetes/dockerfiles/spark/entrypoint.sh /opt/
 COPY kubernetes/dockerfiles/spark/decom.sh /opt/
-COPY examples /opt/spark/examples
-COPY kubernetes/tests /opt/spark/tests
-COPY data /opt/spark/data
+#COPY examples /opt/spark/examples
+#COPY kubernetes/tests /opt/spark/tests
+#COPY data /opt/spark/data
 
 ENV SPARK_HOME /opt/spark
 
